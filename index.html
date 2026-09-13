@@ -104,6 +104,63 @@
             </div>
         </section>
 
+        <section class="wellness-section">
+            <h2>Wellness</h2>
+
+            <div class="card-grid">
+
+                <div class="card">
+                    <h3>Nutrition Score</h3>
+                    <p id="nutritionScore">0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Daily Challenge</h3>
+                    <p id="dailyChallenge">Complete today's challenge</p>
+                </div>
+
+                <div class="card">
+                    <h3>Streak</h3>
+                    <p id="streakValue">0 days</p>
+                </div>
+
+                <div class="card">
+                    <h3>Achievements</h3>
+                    <p id="achievementValue">No achievements yet</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="tracking-section">
+            <h2>Personal Tracking</h2>
+
+            <div class="input-grid">
+
+                <div>
+                    <label for="mood">Mood</label>
+                    <select id="mood">
+                        <option value="">Select mood</option>
+                        <option value="Happy">Happy</option>
+                        <option value="Calm">Calm</option>
+                        <option value="Neutral">Neutral</option>
+                        <option value="Tired">Tired</option>
+                        <option value="Stressed">Stressed</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cycleDate">Menstrual Cycle Date</label>
+                    <input type="date" id="cycleDate">
+                </div>
+
+            </div>
+
+            <button onclick="updatePersonalTracking()">
+                Update Tracking
+            </button>
+        </section>
+
     </main>
 
     <script src="script.js"></script>
