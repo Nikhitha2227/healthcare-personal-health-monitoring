@@ -16,6 +16,46 @@
 
     <main>
 
+        <section class="input-section">
+            <h2>Enter Today's Health Data</h2>
+
+            <div class="input-grid">
+
+                <div>
+                    <label for="weight">Weight (kg)</label>
+                    <input type="number" id="weight" min="1">
+                </div>
+
+                <div>
+                    <label for="height">Height (cm)</label>
+                    <input type="number" id="height" min="1">
+                </div>
+
+                <div>
+                    <label for="water">Water (glasses)</label>
+                    <input type="number" id="water" min="0">
+                </div>
+
+                <div>
+                    <label for="steps">Steps</label>
+                    <input type="number" id="steps" min="0">
+                </div>
+
+                <div>
+                    <label for="sleep">Sleep (hours)</label>
+                    <input type="number" id="sleep" min="0">
+                </div>
+
+                <div>
+                    <label for="calories">Calories (kcal)</label>
+                    <input type="number" id="calories" min="0">
+                </div>
+
+            </div>
+
+            <button onclick="updateDashboard()">Update Dashboard</button>
+        </section>
+
         <section class="dashboard">
             <h2>Health Dashboard</h2>
 
