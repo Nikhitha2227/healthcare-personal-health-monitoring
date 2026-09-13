@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare+ | Personal Health Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>HealthCare+</h1>
+        <p>Personal Health Monitoring System</p>
+    </header>
+
+    <main>
+
+        <section class="dashboard">
+            <h2>Health Dashboard</h2>
+
+            <div class="card-grid">
+
+                <div class="card">
+                    <h3>BMI</h3>
+                    <p id="bmiValue">--</p>
+                </div>
+
+                <div class="card">
+                    <h3>Water Intake</h3>
+                    <p id="waterValue">0 / 8 glasses</p>
+                </div>
+
+                <div class="card">
+                    <h3>Steps</h3>
+                    <p id="stepsValue">0 steps</p>
+                </div>
+
+                <div class="card">
+                    <h3>Sleep</h3>
+                    <p id="sleepValue">0 hours</p>
+                </div>
+
+                <div class="card">
+                    <h3>Calories</h3>
+                    <p id="calorieValue">0 kcal</p>
+                </div>
+
+                <div class="card">
+                    <h3>Wellness Score</h3>
+                    <p id="wellnessValue">0</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="goals">
+            <h2>Daily Goals</h2>
+
+            <div class="goal-card">
+                <p>Water: <span id="waterGoal">0%</span></p>
+                <p>Steps: <span id="stepsGoal">0%</span></p>
+                <p>Sleep: <span id="sleepGoal">0%</span></p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
